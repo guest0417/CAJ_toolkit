@@ -10,7 +10,7 @@ class CustomException(Exception):
     pass
 
 def main():
-    parser = argparse.ArgumentParser(epilog="Following GNU General Public License v3.0. Source code can be found at: https://github.com/guest0417/CAJ_toolkit. NO ILLEGAL ACTIVITIES. Users may not use this programme to conduct or pursue any illegal activities, including but not limited to, distributing or viewing any illegal content, engaging in any activity in violation of OFAC regulations, and/or illegally downloading any copyrighted content, or any other activity that violates any intellectual property rights, and any such conduct using the programme may result in immediate termination of the permission using this program.")
+    parser = argparse.ArgumentParser(epilog="Following GNU General Public License v3.0. Source code can be found at: https://github.com/guest0417/CAJ_toolkit. NO ILLEGAL ACTIVITIES. Users may not use this programme to conduct or pursue any illegal activities, including but not limited to, distributing or viewing any illegal content, engaging in any activity in violation of OFAC regulations, and/or illegally downloading any copyrighted content, or any other activity that violates any intellectual property rights, and any such conduct using the programme may result in immediate termination of the permission using this programme.")
     subparsers = parser.add_subparsers(help="commands", dest="command")
 
     decrypt_parser = subparsers.add_parser("decrypt", help="Decrypt locked PDF to normal PDF.")
