@@ -1,12 +1,8 @@
-#!/usr/bin/env python3
-
 import argparse
-from logging import exception
 import traceback
 import sys
 import os
 from cajdecrypt import decrypt_file
-from subprocess import call
 from cajparser import CAJParser, SupportException
 from utils import add_outlines
 
